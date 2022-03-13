@@ -15,9 +15,6 @@ import torch.utils.data as data
 import numpy as np
 import argparse
 
-import yaml
-from easydict import EasyDict
-
 def str2bool(v):
     return v.lower() in ("yes", "true", "t", "1")
 
